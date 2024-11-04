@@ -5,3 +5,4 @@ console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
 let character = "'Hello'";
+console.log(character);
