@@ -7,15 +7,16 @@
 // secondCharacter = character;
 // console.log(secondCharacter);
 
+// let profession;
+// profession = "teacher";
+// let age;
+// console.log(profession);
+// console.log(age);
+
 console.log("    #    ");
 console.log("   ###   ");
 console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
 let character = "'Hello'";
-
-// let profession;
-// profession = "teacher";
-// let age;
-// console.log(profession);
-// console.log(age);
+let count = 8;
