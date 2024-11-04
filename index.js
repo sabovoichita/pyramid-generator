@@ -14,8 +14,8 @@ console.log(" ####### ");
 console.log("#########");
 let character = "'Hello'";
 
-let profession;
-profession = "teacher";
-let age;
-console.log(profession);
-console.log(age);
+// let profession;
+// profession = "teacher";
+// let age;
+// console.log(profession);
+// console.log(age);
