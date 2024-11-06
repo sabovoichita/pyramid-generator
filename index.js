@@ -30,11 +30,11 @@
 // let popped = rows.pop();
 // console.log("popped: ", popped);
 // console.log("rows: ", rows);
-console.log("    #    ");
-console.log("   ###   ");
-console.log("  #####  ");
-console.log(" ####### ");
-console.log("#########");
+// console.log("    #    ");
+// console.log("   ###   ");
+// console.log("  #####  ");
+// console.log(" ####### ");
+// console.log("#########");
 const character = "#";
 const count = 8;
 const rows = [];
