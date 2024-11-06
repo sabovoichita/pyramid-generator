@@ -40,7 +40,7 @@ const count = 8;
 const rows = [];
 for (let i = 0; i < count; i = i + 1) {
   //   console.log(i);
-  rows.push(character);
+  rows.push(character.repeat(i));
 }
 let result = "";
 for (const row of rows) {
