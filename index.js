@@ -23,6 +23,15 @@
 // cities[cities.length - 1] = "Mexico City";
 // console.log(cities);
 
+// rows.push("freeCodeCamp");
+
+// let pushed = rows.push("freeCodeCamp", "ceva");
+// console.log("pushed items: ", pushed);
+// let popped = rows.pop();
+// console.log("popped: ", popped);
+
+// console.log("rows: ", rows);
+
 console.log("    #    ");
 console.log("   ###   ");
 console.log("  #####  ");
@@ -31,11 +40,3 @@ console.log("#########");
 let character = "'Hello'";
 let count = 8;
 let rows = ["Naomi", "Quincy", "CamperChan"];
-// rows.push("freeCodeCamp");
-
-let pushed = rows.push("freeCodeCamp");
-console.log(pushed);
-let popped = rows.pop();
-console.log(popped);
-
-console.log(rows);
