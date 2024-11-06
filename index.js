@@ -35,6 +35,6 @@ console.log("   ###   ");
 console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
-const character = "Hello";
+const character = "#";
 const count = 8;
 const rows = [];
