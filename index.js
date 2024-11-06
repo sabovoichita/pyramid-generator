@@ -29,14 +29,12 @@
 // console.log("pushed items: ", pushed);
 // let popped = rows.pop();
 // console.log("popped: ", popped);
-
 // console.log("rows: ", rows);
-
 console.log("    #    ");
 console.log("   ###   ");
 console.log("  #####  ");
 console.log(" ####### ");
 console.log("#########");
-let character = "Hello";
-let count = 8;
-let rows = [];
+const character = "Hello";
+const count = 8;
+const rows = [];
