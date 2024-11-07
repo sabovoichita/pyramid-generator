@@ -89,8 +89,8 @@ console.log(numbers);*/
   rows.push(padRow(rows.length + 1, count));
 }*/
 
-const character = "#";
-const count = 8;
+const character = "!";
+const count = 10;
 const rows = [];
 let inverted = true;
 
