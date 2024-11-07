@@ -63,6 +63,11 @@
 //     console.log("This is the else block");
 //   }
 
+// if (done !== count) {
+//     console.log("here");
+//     continueLoop = false;
+//   }
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -85,10 +90,6 @@ let done = 0;
 while (continueLoop) {
   done++;
   rows.push(padRow(done, count));
-  if (done !== count) {
-    console.log("here");
-    continueLoop = false;
-  }
 }
 
 let result = "";
