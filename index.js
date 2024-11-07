@@ -62,7 +62,7 @@ function padRow(rowNumber, rowCount) {
 
 for (let i = 0; i < count; i = i + 1) {
   //   console.log(i);
-  rows.push(padRow()); //(character.repeat(i + 1)
+  rows.push(padRow(i + 1, count)); //(character.repeat(i + 1)
 }
 let result = "";
 for (const row of rows) {
