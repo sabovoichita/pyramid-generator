@@ -92,7 +92,7 @@ console.log(numbers);*/
 const character = "!";
 const count = 10;
 const rows = [];
-let inverted = true;
+let inverted = false;
 
 function padRow(rowNumber, rowCount) {
   return (
