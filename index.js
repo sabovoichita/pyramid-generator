@@ -84,6 +84,11 @@ const unshifted = numbers.unshift(5);
 console.log(unshifted);
 console.log(numbers);*/
 
+//Change the code to a different loop
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -97,7 +102,6 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-//Change the code to a different loop
 for (let i = 1; i <= count; i++) {
   if (inverted) {
     rows.unshift(padRow(i, count));
@@ -105,10 +109,6 @@ for (let i = 1; i <= count; i++) {
     rows.push(padRow(i, count));
   }
 }
-
-/*while (rows.length < count) {
-  rows.push(padRow(rows.length + 1, count));
-}*/
 
 let result = "";
 for (const row of rows) {
