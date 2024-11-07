@@ -47,8 +47,10 @@ const count = 8;
 const rows = [];
 
 function padRow(name) {
+  const test = "Testing";
   return character + name;
 }
+// console.log(test);
 const call = padRow("Voichita");
 console.log(call);
 
