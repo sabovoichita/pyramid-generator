@@ -46,15 +46,14 @@
 
 //   console.log("This works!");
 
+// const test = "Testing";
+//   return test;
+
 const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow() {
-  const test = "Testing";
-
-  return test;
-}
+function padRow() {}
 const call = padRow();
 console.log(call);
 
