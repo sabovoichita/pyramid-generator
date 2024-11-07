@@ -42,18 +42,20 @@
 // let sum = addTwoNumbers(5, 10);
 // console.log("sum is:" + sum);
 
+// console.log(test);
+
+//   console.log("This works!");
+
 const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow(name) {
+function padRow() {
   const test = "Testing";
-  console.log("This works!");
+
   return test;
-  console.log("This works!");
 }
-// console.log(test);
-const call = padRow("Voichita");
+const call = padRow();
 console.log(call);
 
 for (let i = 0; i < count; i = i + 1) {
