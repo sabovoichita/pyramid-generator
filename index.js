@@ -94,6 +94,8 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(rows.length + 1, count));
 }*/
 
+for (let i = count; false; false) {}
+
 let result = "";
 for (const row of rows) {
   result = result + "\n" + row;
