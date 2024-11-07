@@ -66,6 +66,7 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
+//Change the code to a different loop
 for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count)); //(character.repeat(i + 1)
 }
