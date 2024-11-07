@@ -99,6 +99,8 @@ function padRow(rowNumber, rowCount) {
 }*/
 
 const numbers = [1, 2, 3];
+const unshifted = numbers.unshift(5);
+console.log(unshifted);
 console.log(numbers);
 
 let result = "";
