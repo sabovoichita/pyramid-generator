@@ -88,7 +88,7 @@ function padRow(rowNumber, rowCount) {
 }*/
 
 let done = 0;
-while (continueLoop) {
+while (done <= count) {
   done++;
   rows.push(padRow(done, count));
 }
