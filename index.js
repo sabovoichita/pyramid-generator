@@ -68,6 +68,8 @@
 //     continueLoop = false;
 //   }
 
+// let continueLoop = false;
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -85,7 +87,6 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-let continueLoop = false;
 let done = 0;
 while (continueLoop) {
   done++;
