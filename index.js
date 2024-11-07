@@ -74,6 +74,8 @@ function padRow(rowNumber, rowCount) {
 if ("") {
   // falsy values: false, 0, "", null, undefined, and NaN.
   console.log("Condition is true");
+} else if (5 < 10) {
+  console.log("5 is less than 10");
 }
 
 let result = "";
