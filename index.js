@@ -45,6 +45,12 @@ function padRow(name) {
 const call = padRow("Voichita");
 console.log(call);
 
+function addTwoNumbers(a, b) {
+  return a + b;
+}
+let sum = addTwoNumbers(5, 10);
+console.log("sum is:" + sum);
+
 for (let i = 0; i < count; i = i + 1) {
   //   console.log(i);
   rows.push(character.repeat(i + 1));
