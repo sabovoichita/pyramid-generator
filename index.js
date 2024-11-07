@@ -52,6 +52,8 @@
 // const call = padRow();
 // console.log(call);
 
+//   console.log(i);
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -64,12 +66,14 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-for (let i = 0; i < count; i++) {
-  //   console.log(i);
+for (let i = 1; i < count; i++) {
   rows.push(padRow(i + 1, count)); //(character.repeat(i + 1)
 }
+
 let result = "";
+
 for (const row of rows) {
   result = result + "\n" + row;
 }
+
 console.log(result);
