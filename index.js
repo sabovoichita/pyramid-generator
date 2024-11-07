@@ -54,6 +54,15 @@
 
 //   console.log(i);
 
+// if ("") {
+//     // falsy values: false, 0, "", null, undefined, and NaN.
+//     console.log("Condition is true");
+//   } else if (5 > 10) {
+//     console.log("5 is less than 10");
+//   } else {
+//     console.log("This is the else block");
+//   }
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -71,14 +80,8 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-if ("") {
-  // falsy values: false, 0, "", null, undefined, and NaN.
-  console.log("Condition is true");
-} else if (5 > 10) {
-  console.log("5 is less than 10");
-} else {
-  console.log("This is the else block");
-}
+let continueLoop = false;
+let done = 0;
 
 let result = "";
 
