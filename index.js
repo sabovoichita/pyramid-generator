@@ -71,7 +71,8 @@ function padRow(rowNumber, rowCount) {
   rows.push(padRow(i, count));
 }*/
 
-if ("false") {
+if ("") {
+  // falsy values: false, 0, "", null, undefined, and NaN.
   console.log("Condition is true");
 }
 
