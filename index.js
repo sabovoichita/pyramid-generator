@@ -100,8 +100,8 @@ function padRow(rowNumber, rowCount) {
 //Change the code to a different loop
 for (let i = 1; i <= count; i++) {
   if (inverted) {
+    rows.unshift(padRow(i, count));
   }
-  rows.unshift(padRow(i, count));
 }
 
 /*while (rows.length < count) {
