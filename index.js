@@ -84,6 +84,8 @@ let continueLoop = false;
 let done = 0;
 while (continueLoop) {
   done++;
+  if (done == count) {
+  }
 }
 let result = "";
 
