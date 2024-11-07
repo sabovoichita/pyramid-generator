@@ -84,14 +84,15 @@ let continueLoop = false;
 let done = 0;
 while (continueLoop) {
   done++;
+  rows.push(padRow(done, count));
   if (done === count) {
+    console.log("here");
     continueLoop = false;
   }
 }
-let result = "";
 
+let result = "";
 for (const row of rows) {
   result = result + "\n" + row;
 }
-
 console.log(result);
